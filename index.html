@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV-ANTON-MAROZ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/theme.css">
+  </head>
+  <body class="page-body">
+    <header>
+      <button class="burger">
+        <span class="burger__line"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about-me">About me</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#code-example">Code</a></li>
+          <li class="nav__item"><a href="#contact">Contact</a></li>
+          <li class="nav__item"><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="left-side">
+        <figure class="figure--left-side">
+          <img
+            src="./img/Photo.jpg"
+            width="380"
+            height="507"
+            class="photo"
+          />
+        </figure>
+        <section class="contact" id="contact">
+          <h2 class="section-title">Contact</h2>
+          <ul class="contact__list">
+            <li class="contact__item">
+              Phone:<a href="tel:+375291051786">+375 (29) 105-17-86</a>
+            </li>
+            <li class="contact__item">
+              Email:<a href="mailto:mavmio@yandex.by">mavmio@yandex.by</a>
+            </li>
+            <li class="contact__item">
+              Skype:<br />
+              <span>mo_ant</span>
+            </li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+                2014 <br />IT-Academy - Front-end courses: training for a web developer
+              </li>
+            <li class="education__item">
+              2012-2015 <br />Academy of Public Administration under the President of the Republic of Belarus
+            </li>
+            <li class="education__item">
+              2006-2010 <br />Belorusian State University of Informatics and Radioelecnronics (BSUIR)
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+      <section class="page-title">
+        <h1 class="main-title">ANTON <br />MAROZ</h1>
+        <p>Junior Front-End developer</p>
+      </section>
+      <figure class="figure--right-side">
+        <img
+          src="img/Photo.jpg"
+          width="380"
+          height="507"
+          class="photo"
+        />
+      </figure>
+      <section class="about-me" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I have been working as a system administrator for a long time, but often there 
+            is a desire to change my profession to a front-end developer.<br>
+            Now I will take courses at RS School to gain new knowledge in this direction.
+          </p>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills__list">
+            <li>HTML/CSS.</li>
+            <li>Basic JavaScript.</li>
+            <li>Git.</li>
+            <li>English - A2.</li>
+          </ul>
+        </section>
+        <section class="code-example" id="code-example">
+          <h2 class="section-title">Code example</h2>
+          <p>
+                function factorial(n) {<br>
+                &nbsp&nbsp&nbsp if (n ❮ 0) return null;<br>
+                &nbsp&nbsp&nbsp if (n === 0) return 1;<br>
+                &nbsp&nbsp&nbsp return n * factorial(n-1);<br>
+               }
+          </p>
+            
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__github" href="https://github.com/mavmio" target="_blank">
+        My GitHub
+      </a>
+      <p class="footer__year">2022</p>
+      <a class="footer__rsschool" href="https://rs.school/js-stage0/" target="_blank">
+        <img
+          src="https://rs.school/images/rs_school_js.svg"
+          width="86"
+          height="32"
+          alt="RS School"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
